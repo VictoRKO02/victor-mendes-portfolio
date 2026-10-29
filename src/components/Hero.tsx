@@ -11,25 +11,26 @@ import {
 } from "motion/react";
 
 const technologies = [
-  "Power BI",
   "Python",
+  "TypeScript",
+  "Next.js",
+  "Scikit-learn",
   "SQL",
-  "Databricks",
-  "PySpark",
+  "AWS",
 ];
 
 const stats = [
   {
     title: "2025 — atual",
-    description: "Neoenergia Coelba",
+    description: "Estágio em Dados • Neoenergia Coelba",
   },
   {
-    title: "Power BI + SQL",
-    description: "BI, KPIs e modelagem",
+    title: "Engenharia de Software",
+    description: "Aplicações, APIs e automações",
   },
   {
-    title: "Python + PySpark",
-    description: "ETL, automação e dados",
+    title: "Análise de Dados + IA",
+    description: "Prática com algoritmos de Machine Learning",
   },
 ];
 
@@ -169,36 +170,31 @@ export default function Hero() {
         <div className="flex items-center gap-3 text-xs font-extrabold uppercase tracking-[0.16em] text-emerald-300">
           <span className="h-2 w-2 rounded-full bg-emerald-400 shadow-[0_0_20px_#16e07a]" />
 
-          Salvador, BA • BI • DATA • AUTOMATION
+          Salvador, BA • SOFTWARE • IA • DADOS
         </div>
 
         <h1
           className="
             mt-7
-            text-[clamp(52px,6.2vw,96px)]
+            text-[clamp(43px,5.65vw,88px)]
             font-bold
-            leading-[0.96]
+            leading-[0.99]
             tracking-[-0.055em]
           "
         >
-          Transformo{" "}
+          Transformo
+          <br />
           <span className="bg-gradient-to-r from-emerald-400 to-sky-400 bg-clip-text text-transparent">
             dados
           </span>
-
           <br />
-
-          em decisões, automações
-
+          em decisões,
           <br />
-
-          e produtos{" "}
-          <span
-            className="text-transparent"
-            style={{
-              WebkitTextStroke: "1px #ffffff",
-            }}
-          >
+          automações
+          <br />
+          e produtos
+          <br />
+          <span className="text-transparent" style={{ WebkitTextStroke: "1px #ffffff" }}>
             úteis.
           </span>
         </h1>
@@ -210,14 +206,14 @@ export default function Hero() {
             text-base
             leading-[1.75]
             text-[#b8c5bd]
-
             sm:text-lg
           "
         >
-          Profissional de dados com formação em Análise e
-          Desenvolvimento de Sistemas e Engenharia de Computação em
-          andamento, atuando na conexão entre Business Intelligence,
-          análise de dados, automação e arquiteturas modernas de dados.
+          Profissional de tecnologia formado em Análise e Desenvolvimento de Sistemas
+          e graduando em Engenharia de Computação. Atuo na conexão entre Business
+          Intelligence, análise de dados, automação e engenharia de software.
+          Desenvolvo aplicações, APIs e projetos de Machine Learning que transformam
+          dados e processos em decisões mais claras e produtos úteis.
         </p>
 
         {/* BOTÕES */}
@@ -454,7 +450,7 @@ export default function Hero() {
           >
             <span className="h-[7px] w-[7px] rounded-full bg-emerald-400" />
 
-            BI • ANALYTICS • DATA ENGINEERING
+            SOFTWARE • MACHINE LEARNING • DATA
           </div>
 
           {/* MONOGRAMA */}
@@ -506,7 +502,7 @@ export default function Hero() {
               [transform:translateZ(30px)]
             "
           >
-            BI • Data Analytics • Data Engineering
+            Engenharia de Software • IA • Dados
           </p>
 
           {/* TECNOLOGIAS */}
@@ -612,7 +608,7 @@ export default function Hero() {
             lg:block
           "
         >
-          DAX
+          PYTHON
         </motion.div>
 
         {/* =================================================
@@ -652,7 +648,7 @@ export default function Hero() {
             lg:block
           "
         >
-          LAKEHOUSE
+          NEXT.JS
         </motion.div>
 
         {/* =================================================
@@ -693,7 +689,7 @@ export default function Hero() {
             lg:block
           "
         >
-          PYSPARK
+          ML / IA
         </motion.div>
       </motion.div>
     </section>

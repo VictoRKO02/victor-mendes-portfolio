@@ -3,27 +3,27 @@ import SkillCard from "@/components/SkillCard";
 const skills = [
   {
     index: "01",
-    title: "BI & Analytics",
+    title: "Engenharia de Software",
     description:
-      "Power BI, DAX, Power Query, Excel, KPIs, Data Visualization, Storytelling e análise exploratória.",
+      "Next.js, React, TypeScript, NestJS, FastAPI, Django, APIs REST, Prisma, PostgreSQL, testes e automações.",
   },
   {
     index: "02",
-    title: "Data Engineering",
+    title: "Inteligência Artificial & ML",
     description:
-      "Python, PySpark, Spark SQL, Databricks, ETL/ELT, APIs REST, JSON e integração de dados.",
+      "Scikit-learn, KNN, Decision Tree, Random Forest, Regressão Logística, Transformers, LLMs, avaliação de modelos e OpenCV.",
   },
   {
     index: "03",
-    title: "Arquitetura de Dados",
+    title: "Dados, BI & Arquitetura",
     description:
-      "Data Warehouse, Data Lakehouse, modelagem dimensional, Star Schema, qualidade e governança de dados.",
+      "Python, SQL, Pandas, NumPy, ETL/ELT, PySpark, Databricks, Data Warehouse, Lakehouse, Star Schema, Power BI e DAX.",
   },
   {
     index: "04",
-    title: "Software & Automação",
+    title: "Infraestrutura & Integração",
     description:
-      "Django, HTML, CSS, JavaScript, Git/GitHub, automações Python e integração entre sistemas.",
+      "Docker, Git/GitHub, Linux, AWS Academy, integração de sistemas, Web Workers, Web Audio API e automações Python.",
   },
 ];
 
@@ -43,22 +43,31 @@ export default function About() {
         <h2 className="max-w-4xl text-[clamp(40px,5vw,68px)] font-bold leading-[1.02] tracking-[-0.045em]">
           Perfil híbrido entre{" "}
           <span className="text-emerald-400">
-            negócio, dados e tecnologia.
+            software, IA e dados.
           </span>
         </h2>
 
         <div className="mt-8 max-w-[880px] space-y-5 text-base leading-8 text-[#a8b5ad] sm:text-[17px]">
           <p>
-            Minha trajetória combina análise de dados, Business Intelligence,
-            automação e desenvolvimento de software. Transformo bases e
-            processos em informações confiáveis, indicadores claros e soluções
-            que aproximam tecnologia da operação e da tomada de decisão.
+            Sou formado em Análise e Desenvolvimento de Sistemas e curso Engenharia de
+            Computação no SENAI CIMATEC. Atuo com análise de dados na Neoenergia Coelba,
+            conectando Business Intelligence, automação e engenharia de dados para
+            transformar bases e processos em informações confiáveis, indicadores claros
+            e soluções próximas da operação e da tomada de decisão.
           </p>
-
           <p>
-            Atuo com Power BI, DAX, Power Query, SQL, Python e ETL/ELT, além de
-            conhecimentos e experiência com PySpark, Databricks, Data Warehouse,
-            Data Lakehouse, modelagem dimensional e integração de dados.
+            Trabalho com Power BI, DAX, Power Query, SQL, Python e ETL/ELT. Também
+            desenvolvo conhecimentos e projetos envolvendo PySpark, Databricks,
+            Data Warehouse, Data Lakehouse, modelagem dimensional e integração de dados.
+            Essa base analítica complementa minha experiência com desenvolvimento de
+            aplicações, serviços e APIs.
+          </p>
+          <p>
+            Em inteligência artificial, desenvolvo projetos para experimentar e aplicar
+            modelos na prática: o ECHO, plataforma de tradução com modelos de linguagem;
+            o Iris ML, que compara algoritmos de aprendizado supervisionado; e o
+            Chromatic Vision, voltado ao reconhecimento de objetos com OpenCV. Gosto
+            de entender o problema, construir a solução e avaliar seu funcionamento.
           </p>
         </div>
 

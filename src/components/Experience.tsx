@@ -11,7 +11,7 @@ const experiences = [
       "Criação de relatórios avançados em Excel integrados a bancos de dados.",
       "Automação de processos utilizando Python em rotinas de ETL, limpeza e integração de dados.",
       "Monitoramento e análise de KPIs com consultas SQL.",
-      "Otimização de processos analíticos, aumentando eficiência e confiabilidade dos dados.",
+      "Acompanhamento da execução de processos e das dependências entre bases de dados, apoiando a identificação de falhas operacionais.",
     ],
   },
   {
@@ -51,7 +51,7 @@ export default function Experience() {
           <h2 className="mt-5 max-w-[950px] text-[clamp(40px,5vw,68px)] font-bold leading-[1.02] tracking-[-0.045em]">
             Experiência que conecta{" "}
             <span className="text-[#0aa95a]">
-              dados à operação.
+              tecnologia à operação.
             </span>
           </h2>
         </Reveal>

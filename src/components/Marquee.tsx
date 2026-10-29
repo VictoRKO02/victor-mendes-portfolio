@@ -1,14 +1,6 @@
 const technologies = [
-  "POWER BI",
-  "DAX",
-  "POWER QUERY",
-  "SQL",
-  "PYTHON",
-  "PYSPARK",
-  "DATABRICKS",
-  "DATA WAREHOUSE",
-  "DATA LAKEHOUSE",
-  "ETL / ELT",
+  "PYTHON", "TYPESCRIPT", "NEXT.JS", "NESTJS", "SCIKIT-LEARN", "MACHINE LEARNING",
+  "OPEN CV", "NLLB-200", "POSTGRESQL", "DOCKER", "POWER BI", "SQL", "AWS", "ETL / ELT",
 ];
 
 export default function Marquee() {

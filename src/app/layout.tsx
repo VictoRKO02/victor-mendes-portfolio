@@ -14,10 +14,18 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Victor Mendes | BI, Data Analytics & Data Engineering",
+  title: "Victor Mendes | Engenharia de Software, IA & Machine Learning",
 
   description:
-    "Portfólio de Victor Mendes Ferreira Bittencourt — Business Intelligence, Data Analytics, automação e engenharia de dados.",
+    "Portfólio de Victor Mendes Ferreira Bittencourt — engenharia de software, inteligência artificial, machine learning, projetos full stack e dados.",
+  icons: {
+    icon: [
+      { url: "/icon.png", type: "image/png", sizes: "64x64" },
+      { url: "/favicon.ico", sizes: "any" },
+    ],
+    apple: [{ url: "/apple-icon.png", type: "image/png", sizes: "180x180" }],
+    shortcut: ["/icon.png"],
+  },
 };
 
 export default function RootLayout({

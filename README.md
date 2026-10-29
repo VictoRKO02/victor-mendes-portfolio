@@ -1,147 +1,63 @@
-# Victor Mendes | Data Analytics & Business Intelligence
+# Victor Mendes | Portfólio
 
-Portfólio profissional desenvolvido para apresentar minha trajetória, competências técnicas e projetos nas áreas de **Análise de Dados, Business Intelligence, Automação e Engenharia de Dados**.
+Portfólio em Next.js 16 e TypeScript. **Esta versão foi incrementada diretamente sobre o site original**, preservando layout, identidade visual, card 3D VM, navegação, animações e estilos de todas as seções.
 
-Meu foco é transformar dados em **informações confiáveis, indicadores claros, automações e soluções que apoiem a tomada de decisão**.
+## Refinamentos de apresentação (29/10/2026)
 
-## Sobre mim
+- Resgatado o título da capa: “Transformo dados em decisões, automações e produtos úteis.”
+- Combinada a descrição profissional de desenvolvimento de software, BI, dados, automações e ML.
+- Três destaques na capa: estágio desde 2025, engenharia de software e análises com IA.
+- Sobre reescrito com integração de dados, stack de BI/arquitetura e exemplos ECHO, Iris ML e Chromatic Vision.
+- Competências reorganizadas nos mesmos quatro cartões, cobrindo software, IA/ML, BI/arquitetura e infraestrutura.
+- Mantido o título original da Stack “Da origem do dado ao indicador de negócio.” e ampliadas suas quatro etapas para engenharia, ML, integração e entrega.
+- Identidade visual, monograma VM, componentes, navegação e demais seções preservados.
 
-Sou formado em **Análise e Desenvolvimento de Sistemas** e atualmente curso **Engenharia de Computação no SENAI CIMATEC**.
+## Atualizações desta versão
 
-Atuo na **Neoenergia Coelba como Estagiário em Análise de Dados**, trabalhando com desenvolvimento de dashboards, análise de indicadores, consultas SQL, automação de processos e integração de dados.
+- Apresentação focada em Engenharia de Software, IA, Machine Learning e Dados.
+- Adicionados projetos ECHO, Iris ML, Chromatic Vision, dengue, Petshop DW, Empório da Tatá, plataforma TOPSIS e Cimatlética Vision, sem remover os projetos existentes.
+- Filtros funcionais na seção de projetos, com mesma identidade visual dos cartões originais.
+- Links de repositórios e comprovantes AWS nos projetos, links de certificados na formação.
+- Atualizados competências, trajetória profissional, título/descrição SEO e currículo.
+- Todos os exemplos de sistemas corporativos são descritivos e não expõem dados da empresa.
 
-Minha trajetória combina conhecimento de negócio com tecnologia, passando desde a extração e tratamento dos dados até sua transformação em dashboards, indicadores e soluções analíticas.
+## Requisitos
 
-## Stack
+Node.js compatível com Next.js 16 (Node.js 20.9+; recomenda-se 22 LTS) e npm.
 
-### Business Intelligence & Analytics
-
-* Power BI
-* DAX
-* Power Query
-* Excel
-* Data Visualization
-* Storytelling com Dados
-* Análise Exploratória de Dados
-* KPIs e Indicadores
-
-### Data & Engineering
-
-* Python
-* SQL
-* PySpark
-* Spark SQL
-* Databricks
-* Pandas
-* NumPy
-* ETL / ELT
-* APIs REST
-* JSON
-
-### Arquitetura de Dados
-
-* Data Warehouse
-* Data Lakehouse
-* Modelagem Dimensional
-* Star Schema
-* Integração de Dados
-* Qualidade e Governança de Dados
-
-### Desenvolvimento & Ferramentas
-
-* Git / GitHub
-* Django
-* HTML
-* CSS
-* JavaScript
-* PostgreSQL
-* MySQL
-
-## Projetos em destaque
-
-### Hub de Dados Corporativo
-
-Aplicação desenvolvida em **Django** para centralização e organização de dados e arquivos corporativos, com integração a dashboards do **Power BI**.
-
-**Tecnologias:** Django • Power BI • Integração de Dados • Governança
-
----
-
-### BI's Operacionais & Indicadores
-
-Desenvolvimento de dashboards para acompanhamento operacional, análise de indicadores e suporte à tomada de decisão.
-
-Os projetos envolvem tratamento de dados, modelagem, construção de medidas e desenvolvimento de visões executivas e táticas.
-
-**Tecnologias:** Power BI • DAX • Power Query • SQL • KPIs
-
----
-
-### Pipelines & ETL de Dados
-
-Desenvolvimento de rotinas para extração, transformação, limpeza, integração e carga de dados utilizadas em análises, relatórios e processos automatizados.
-
-**Tecnologias:** Python • SQL • ETL/ELT • Automação
-
----
-
-### Análise Preditiva de Acidentes Rodoviários
-
-Projeto de Data Science desenvolvido com dados reais da Polícia Rodoviária Federal referentes ao período de 2017 a 2025.
-
-O projeto envolve tratamento dos dados, análise exploratória, visualização e aplicação de Machine Learning para identificação de padrões relacionados a acidentes rodoviários na Bahia.
-
-**Tecnologias:** Python • Pandas • NumPy • Matplotlib • Scikit-learn
-
-## Sobre este portfólio
-
-O site foi desenvolvido para funcionar como uma extensão visual do meu currículo, permitindo conhecer de forma mais rápida minha trajetória, tecnologias e projetos.
-
-### Tecnologias do projeto
-
-* HTML5
-* CSS3
-* JavaScript
-* Design responsivo
-* Git / GitHub
-
-## Executando localmente
-
-Clone o repositório:
+## Executar localmente
 
 ```bash
-git clone https://github.com/VictoRKO02/victor-mendes-portfolio.git
+npm install
+npm run dev
 ```
 
-Entre na pasta:
+Abra http://localhost:3000. Para testar antes da publicação:
 
 ```bash
-cd victor-mendes-portfolio
+npm run lint
+npx tsc --noEmit
+npm run build
 ```
 
-Abra o arquivo:
+## Publicar no GitHub e Vercel
 
-```text
-index.html
+Substitua o conteúdo do repositório pelo deste ZIP, mantendo a pasta `.git` local se já existir, e então:
+
+```bash
+git add .
+git commit -m "feat: amplia portfolio original com IA ML e projetos"
+git push origin main
 ```
 
-Não é necessária instalação de dependências ou configuração de banco de dados.
+O deploy é iniciado automaticamente se a branch `main` estiver conectada à Vercel.
 
-## Contato
+## Ajustes rápidos
 
-**Victor Mendes Ferreira Bittencourt**
+- Projetos, tags e links: `src/components/Projects.tsx`
+- Apresentação / card VM: `src/components/Hero.tsx`
+- Competências: `src/components/About.tsx` e `src/components/Stack.tsx`
+- Formação e comprovantes: `src/components/Education.tsx`
+- PDF: `public/documents/Victor_Mendes_CV.pdf`
 
-Salvador — BA
-
-**LinkedIn:**
-https://www.linkedin.com/in/victormfb/
-
-**GitHub:**
-https://github.com/VictoRKO02
-
-**E-mail:**
-[victorbittencourt148@hotmail.com](mailto:victorbittencourt148@hotmail.com)
-
----
-
-### Dados que geram informação. Informação que apoia decisões.
+> Observação: o GitHub dos projetos é público; projetos corporativos são mostrados sem códigos ou dados internos.

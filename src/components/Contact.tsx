@@ -41,15 +41,15 @@ export default function Contact() {
           </div>
 
           <h2 className="mt-5 text-[clamp(40px,5vw,68px)] font-bold leading-[1.02] tracking-[-0.045em]">
-            Dados, tecnologia e{" "}
+            Software, dados e{" "}
             <span className="text-emerald-400">
               resultado.
             </span>
           </h2>
 
           <p className="mt-7 max-w-[560px] leading-7 text-[#95a49b]">
-            Aberto a oportunidades e projetos em Business Intelligence,
-            Análise de Dados e soluções orientadas por dados.
+            Aberto a oportunidades e projetos em Engenharia de Software,
+            Inteligência Artificial, Machine Learning e Dados.
           </p>
         </Reveal>
 
